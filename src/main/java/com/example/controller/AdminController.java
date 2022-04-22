@@ -38,7 +38,7 @@ public class AdminController {
 	WardService wservice;
 	
 	@GetMapping("/getStaffDetails")
-	public getDetails(){
+	public List<Staff> getDetails(){
 		return service.getStaffDetails();
 	}
 	
